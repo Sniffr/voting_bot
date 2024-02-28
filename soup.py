@@ -10,8 +10,8 @@ except FileNotFoundError:
     existing_contacts_df = pd.DataFrame(columns=['Name', 'Phone Number', 'Email'])
 
 # Loop to run the scraper 10 times with different seeds
-for i in range(40):
-    seed = 273 + i  # Update the seed for each iteration
+for i in range(70):
+    seed = 350 + i  # Update the seed for each iteration
     # Update the URL with the current seed value
     url = f'https://www.random-name-generator.com/south-africa?s={seed}&search_terms=&gender=&search_terms=&n=10'
 
